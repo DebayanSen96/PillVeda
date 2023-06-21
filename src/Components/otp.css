@@ -1,0 +1,61 @@
+.otp_input_style {
+   border-radius: 5px;
+   color: rgb(59, 108, 254); 
+   width: 40px !important;
+   height: 40px;
+   background-color:  rgba(156, 173, 224, 0.326); 
+   border: none;
+}
+
+.main_otp_page {
+    background-color: rgb(238, 247, 255);
+
+}
+
+.otp_input_style:focus {
+    outline: 3px solid rgb(59, 108, 254);
+}
+
+.otp_page {
+    justify-content: start;
+}
+
+
+.otp_page > h3 {
+    margin-top: 40px;
+}
+.otp_container {
+    width: 60%;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.small_text {
+    font-size: 10px;
+    color: grey;
+}
+
+.button_otp{
+    min-width: fit-content;
+    margin-top: 20px;
+}
+.hide {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .otp_container {
+    width: 85%;
+    }
+
+   .otp_page > h3 {
+ margin-top: 100px;
+  }
+.button_otp{
+width: 85%; 
+margin-top: 60px;
+}
+}
