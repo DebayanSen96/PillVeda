@@ -21,9 +21,10 @@ function Login_Options() {
   const [userId, setUserId] = useState("");
 
   useEffect(() => {
+    const cId = clientId;
     const start = (data, loadClient) => {
       gapi.client.init({
-        clientId: clientId,
+        clientId: cId,
         scope: "https://www.googleapis.com/auth/user.phonenumbers.read",
       });
     };
